@@ -15,6 +15,7 @@ jobs:
         with:
           repository: rustdesk/rustdesk-server
           ref: master
+          submodules: recursive
           persist-credentials: false
 
       - name: Install Rust
